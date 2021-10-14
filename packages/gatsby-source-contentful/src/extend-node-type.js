@@ -49,7 +49,6 @@ export async function setFieldsOnGraphQLNodeType({ type, cache }) {
         },
         quality: {
           type: GraphQLInt,
-          defaultValue: 50,
         },
       }
     )
